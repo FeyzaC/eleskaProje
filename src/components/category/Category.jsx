@@ -1,5 +1,6 @@
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import hamur from "../../helper/about.jpg";
 
 const Category = ({ slides }) => {
   const image =
@@ -25,7 +26,7 @@ const Category = ({ slides }) => {
             </Link>
           </div>
           <div className="right sm:inline-block md:basis-1/2 lg:basis-1/3 flex justify-center sm:hidden ">
-            <img src={image} alt="" className="rounded-full w-60 h-60" />
+            <img src={hamur} alt="" className="rounded-full w-60 h-60" />
           </div>
         </div>
         <div className="flex justify-center flex-wrap">
